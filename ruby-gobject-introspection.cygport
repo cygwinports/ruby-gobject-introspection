@@ -1,0 +1,12 @@
+inherit rubygem
+
+NAME="ruby-gobject-introspection"
+VERSION=1.2.1
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby gobject-introspection extension"
+DESCRIPTION="Ruby/GObjectIntrospection is a Ruby binding of the GObject
+Introspection library."
+HOMEPAGE="http://ruby-gnome2.sourceforge.jp/"
+
+DEPS_PATH="/usr/lib/ruby/gems/${RUBY_VERSION}/gems/glib2-*/lib"
